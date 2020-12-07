@@ -10,7 +10,7 @@ const connectToDatabase = () => {
     console.log("connected to  to the database");
   });
   db.on("error", () => {
-    console.log("Error connecting to database");
+    console.log("Error connecting to my database");
   });
 };
 
