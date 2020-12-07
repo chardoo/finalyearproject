@@ -7,7 +7,7 @@ const connectToDatabase = () => {
   mongoose.connect(url, { useNewUrlParser: true });
   const db = mongoose.connection;
   db.once("open", () => {
-    console.log("connected to database");
+    console.log("connected to  to the database");
   });
   db.on("error", () => {
     console.log("Error connecting to database");
