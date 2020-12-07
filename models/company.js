@@ -53,8 +53,8 @@ companySchema.methods.isValidPassword = async function(userPassword) {
       return false;
     }
     return true;
-  } catch (e) {
-    console.log(e);
+  } catch (error) {
+    console.log(error);
   }
 };
 
